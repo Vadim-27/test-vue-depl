@@ -2,12 +2,12 @@
   "name": "test-vue-depl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vadim-27.github.io/test-vue-depl/",
+  "homepage": "https://ваш_логин.github.io/'
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "git push origin main"
+    "deploy": "gh-pages -d dist"
   },
   
   "dependencies": {
